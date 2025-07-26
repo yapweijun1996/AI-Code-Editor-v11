@@ -132,6 +132,14 @@ body.resizing {
   height: 100vh;
 }
 
+.jstree-default .jstree-clicked{
+  color: black !important;
+}
+
+.jstree-anchor:hover {
+  color: black !important;
+}
+
 #split-container > .sidebar,
 #split-container > .main-content {
   flex-basis: unset !important;
@@ -302,7 +310,7 @@ body.resizing {
 }
 
 #token-usage-display {
- display: none; /* Initially hidden */
+ display: flex;
  gap: 0.75rem;
  font-size: 0.8em;
  color: var(--secondary);
@@ -310,6 +318,17 @@ body.resizing {
  padding: 0.25rem 0.5rem;
  border-radius: 4px;
  border: 1px solid var(--border);
+}
+
+.chat-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.chat-header h2 {
+    margin: 0;
 }
 
 /* --- Controls & Inputs --- */
