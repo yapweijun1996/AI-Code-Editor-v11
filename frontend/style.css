@@ -233,17 +233,6 @@ body.resizing {
   flex-direction: column;
 }
 
-#chat-panel-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: 5px;
-}
-
-#chat-panel-header h2 {
-  margin: 0;
-}
-
 .gutter {
   background-color: var(--border);
   cursor: col-resize;
@@ -313,14 +302,14 @@ body.resizing {
 }
 
 #token-usage-display {
-  display: flex; /* Ensure it's visible */
-  gap: 0.75rem;
-  font-size: 0.8em;
-  color: var(--secondary);
-  background-color: var(--input-bg);
-  padding: 0.25rem 0.5rem;
-  border-radius: 4px;
-  border: 1px solid var(--border);
+ display: none; /* Initially hidden */
+ gap: 0.75rem;
+ font-size: 0.8em;
+ color: var(--secondary);
+ background-color: var(--input-bg);
+ padding: 0.25rem 0.5rem;
+ border-radius: 4px;
+ border: 1px solid var(--border);
 }
 
 /* --- Controls & Inputs --- */

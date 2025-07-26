@@ -33,14 +33,7 @@
         <div id="editor"></div>
       </div>
       <div id="chat-panel" class="sidebar">
-        <div id="chat-panel-header">
-          <h2>AI Chat</h2>
-          <div class="toolbar-group" id="token-usage-display" style="display: flex;">
-            <span id="token-request">Req: 2154</span>
-            <span id="token-response">Res: 2335</span>
-            <span id="token-total">Total: 4489</span>
-          </div>
-        </div>
+        <h2 style="margin: 0px 0px 5px 0px;">AI Chat</h2>
         <div id="chat-messages"></div>
         <div id="chat-input-container">
           <div id="chat-toolbar">
@@ -68,6 +61,11 @@
               <button id="format-button">Format Document</button>
               <button id="toggle-files-button">Toggle Files</button>
             </div>
+            <div class="toolbar-group" id="token-usage-display">
+               <span id="token-request">Req: 0</span>
+               <span id="token-response">Res: 0</span>
+               <span id="token-total">Total: 0</span>
+             </div>
           </div>
           <div id="image-preview-container" style="display: none"></div>
           <textarea
